@@ -5,11 +5,11 @@ import { Info, User, Search, Navbar, Repos } from "../components/index";
 function Dashboard() {
   return (
     <main>
-      <Navbar />
-      <Search />
+      {/* <Navbar /> */}
+      {/* <Search /> */}
       <Info />
       <User />
-      <Repos />
+      {/* <Repos /> */}
     </main>
   );
 }
