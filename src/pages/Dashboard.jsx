@@ -5,7 +5,7 @@ import { Info, User, Search, Navbar, Repos } from "../components/index";
 function Dashboard() {
   return (
     <main>
-      {/* <Navbar /> */}
+      <Navbar />
       <Search />
       <Info />
       <User />
