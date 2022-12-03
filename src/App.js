@@ -21,6 +21,16 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <footer className="footer">
+          <a
+            href="https://raziwebdeveloper.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" footer-link"
+          >
+            Developed with ❤ by raziwebdeveloper.com
+          </a>
+        </footer>
       </BrowserRouter>
     </AuthWrapper>
   );
